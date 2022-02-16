@@ -1,0 +1,29 @@
+
+  <section class="user-dashboard page-wrapper">
+    <div class="container">
+      <div class="row" style="padding-top: 100px;">       
+        <div class="col-20 col-md-12 col-sm-30 col-lg-40">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Order</th>
+                <th scope="col">Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor ="let event of [1,2,3,4,5]">
+                <th scope="row">{{event}}</th>
+                <td>{{event}} </td>
+                <td>{{event}}</td>
+
+
+                <td><a routerLink="/order" class="btn btn-dark btn-small">View</a></td> </tr>
+              
+                         </tbody> 
+                        </table> 
+                    </div> 
+                </div> 
+            </div> 
+            </section>
